@@ -15,6 +15,7 @@ add_executable(
 	src/reward/test-lpiterations.cpp
 	src/observation/test-nodebipartite.cpp
 	src/observation/test-strongbranchingscores.cpp
+	src/observation/test-pseudocosts.cpp
 )
 
 target_compile_definitions(
