@@ -13,6 +13,7 @@ add_executable(
 	src/environment/test-configuring.cpp
 	src/reward/test-lpiterations.cpp
 	src/observation/test-strongbranchingscores.cpp
+	src/observation/test-pseudocosts.cpp
 )
 
 target_compile_definitions(
