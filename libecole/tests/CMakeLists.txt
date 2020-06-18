@@ -14,6 +14,7 @@ add_executable(
 	src/environment/test-configuring-dynamics.cpp
 	src/reward/test-lpiterations.cpp
 	src/observation/test-nodebipartite.cpp
+	src/reward/test-nnodes.cpp
 	src/observation/test-strongbranchingscores.cpp
 )
 

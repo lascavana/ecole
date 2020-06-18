@@ -57,3 +57,9 @@ def test_LpIterations(model):
     reward_func = R.LpIterations()
     reward_func.reset(model)
     assert reward_func.obtain_reward(model) <= 0
+
+
+def test_NNodes(model):
+    reward_func = R.NNodes()
+    reward_func.reset(model)
+    assert reward_func.obtain_reward(model) <= 0
