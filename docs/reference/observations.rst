@@ -14,6 +14,10 @@ Node Bipartite
 .. autoclass:: ecole.observation.NodeBipartiteObs
    :members:
 
+Pseudocosts
+^^^^^^^^^^^
+.. autoclass:: ecole.observation.Pseudocosts
+   :members:
 
 Utilities
 ---------
