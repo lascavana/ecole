@@ -17,6 +17,11 @@ Node Bipartite
 .. autoclass:: ecole.observation.NodeBipartite
 .. autoclass:: ecole.observation.NodeBipartiteObs
 
+Focus Node
+^^^^^^^^^^^^^^
+.. autoclass:: ecole.observation.FocusNode
+.. autoclass:: ecole.observation.FocusNodeObs
+
 
 Utilities
 ---------
