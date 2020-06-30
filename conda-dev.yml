@@ -20,6 +20,7 @@ dependencies:
   - python>=3.6
   - pybind11
   - numpy>=1.4
+  - tensorflow-gpu==2.0
   - xtensor-python
   # Python dev tools
   - ipython
