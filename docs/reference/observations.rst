@@ -22,6 +22,11 @@ Focus Node
 .. autoclass:: ecole.observation.FocusNode
 .. autoclass:: ecole.observation.FocusNodeObs
 
+Pseudocosts
+ ^^^^^^^^^^^
+.. autoclass:: ecole.observation.Pseudocosts
+  :members:
+
 
 Utilities
 ---------

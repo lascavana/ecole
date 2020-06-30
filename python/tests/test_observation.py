@@ -74,3 +74,9 @@ def test_StrongBranchingScores(solving_model):
     assert isinstance(obs, np.ndarray)
     assert obs.size > 0
     assert len(obs.shape) == 1
+
+def test_Pseudocosts(solving_model):
+     obs = O.Pseudocosts().obtain_observation(solving_model)
+     assert isinstance(obs, np.ndarray)
+     assert obs.size > 0
+     assert len(obs.shape) == 1
